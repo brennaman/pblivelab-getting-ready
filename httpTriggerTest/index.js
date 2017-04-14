@@ -3,6 +3,7 @@
 
     context.res = {
             status: 200,
+            headers: { 'Content-Type': 'text/html; charset=utf-8' },
             body: "<h1>Hello Lunch-and-Learn</h1>"
         };
 
